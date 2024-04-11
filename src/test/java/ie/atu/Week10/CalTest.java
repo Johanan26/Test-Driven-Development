@@ -12,4 +12,10 @@ public class CalTest {
         newCalc = new Calc();
         assertEquals(10, newCalc.add(4, 6));
     }
+
+    @Test
+    void testSubtract() {
+        newCalc = new Calc();
+        assertEquals(-3, newCalc.subtract(3, 6));
+    }
 }
