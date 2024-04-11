@@ -11,4 +11,9 @@ public class Calc {
         int result = firstNum - secondNum;
         return result;
     }
+
+    public int Div(int firstNum, int secondNum) {
+        int result = firstNum / secondNum;
+        return result;
+    }
 }

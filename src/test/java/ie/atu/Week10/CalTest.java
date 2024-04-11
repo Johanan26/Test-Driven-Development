@@ -18,4 +18,10 @@ public class CalTest {
         newCalc = new Calc();
         assertEquals(-3, newCalc.subtract(3, 6));
     }
+
+    @Test
+    void testDiv() {
+        newCalc = new Calc();
+        assertEquals(5, newCalc.Div(10, 2));
+    }
 }
