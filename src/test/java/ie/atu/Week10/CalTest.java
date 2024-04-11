@@ -24,4 +24,10 @@ public class CalTest {
         newCalc = new Calc();
         assertEquals(5, newCalc.Div(10, 2));
     }
+
+    @Test
+    void testMult() {
+        newCalc = new Calc();
+        assertEquals(20, newCalc.Mult(10, 2));
+    }
 }
